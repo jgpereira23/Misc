@@ -39,3 +39,17 @@ body{
 	background-color: #B0B1D0;
 	text-align: center;
 }
+
+.right{
+	float:right;
+	width:15%;
+	height:300px;
+	border:dashed blue 1px;
+}
+
+.left{
+	float:left;
+	width:80%;
+	height:300px;
+	border:dashed blue 1px;
+}
