@@ -1,25 +1,38 @@
+
+
 body{
 	padding:0px;
 	margin:0px;
 	height:100%;
+	background-color:#E0E0E0;
 }
 #wrapper{
 	padding:0px;
 	margin: 0px;
 	height: 30px;
 	width: 100%;
-	min-width:1000px;
 	background-color: #032B53;
-	text-align: center;
-}
+	text-align: center;}
 #header{
-	margin:auto;
+	margin-top:50px;
+	margin-left:90px;
 	position: center;
 	border-left: white solid 1px;
 	border-right: white solid 1px;
-	width: 70%;
+	width: 75%;
 	height:100%;
-	
+	position:relative;
+}
+
+#banner{
+	z-index:1;
+	margin-top:0px;
+	border: black dashed 1px;
+	height:10px;
+	position:relative;
+	width:100%;
+	height:40px;
+	clear:both;
 }
 #header li{
 	border-left: white solid 1px;
@@ -28,28 +41,30 @@ body{
 	vertical-align:center;
 	display: inline;
 	color:white;
+	z-index:1;
 }
 #bwrapper{
 	clear: both;
 	padding:0px;
-	margin: 0px;
+	margin-bottom:0;
 	height: 60px;
 	width: 100%;
-	min-width:1000px;
 	background-color: #B0B1D0;
 	text-align: center;
+	padding-bottom:-50px;
+	
 }
 
 .right{
 	float:right;
 	width:15%;
-	height:300px;
-	border:dashed blue 1px;
+	height:1000px;
+	border: dashed blue 1px;
 }
 
 .left{
 	float:left;
 	width:80%;
 	height:300px;
-	border:dashed blue 1px;
+	border: dashed blue 1px;
 }
