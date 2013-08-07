@@ -1,6 +1,17 @@
+
 body{
 	padding:0px;
 	margin:0px;
+}
+
+h2{
+	color:#032B53;
+	}
+
+p{
+	line-height:150%;
+	color:#032B53;
+	text-align:left;
 }
 
 #wrapper{
@@ -10,7 +21,7 @@ body{
 
 #topW{
 	height:175px;
-	width: 900px;
+	width: 850px;
 	z-index:1;
 	padding:0px;
 	margin:auto;
@@ -20,7 +31,7 @@ body{
 #banner{
 	float:right;
 	margin:auto;
-	width:900px;
+	width:850px;
 	height:130px;
 	position:absolute;
 }
@@ -28,11 +39,11 @@ body{
 #banner img{
 	margin:0 auto;
 	height:150px;
-	width:900px;
+	width:850px;
 	
 	}
 #navbar{
-	width: 900px;
+	width: 850px;
 	height:30;
 	float:left;
 	display:block;
@@ -68,7 +79,7 @@ body{
 #navbar ul li:nth-child(5){border-right:0;}
 
 #middleW{
-	width:900px;
+	width:850px;
 	height:1000px;
 	margin:auto;
 	z-index:2;
@@ -79,7 +90,7 @@ body{
 
 #container{
 	column-count:2;
-	width:900px;
+	width:850px;
 	margin:auto;
 	background-color:#E0E0E0;
 	border-radius:5px;
@@ -91,7 +102,7 @@ body{
 	padding:0px;
 	margin:auto;
 	height: 80px;
-	width: 900px;
+	width: 850px;
 	background-color: #B0B1D0;
 	text-align: center;
 	border-radius:5px;
@@ -129,7 +140,7 @@ body{
 #banner #title a{
 	display:block;
 	float:left;
-	width:900px;
+	width:960px;
 	height:105px;
 	margin:0;
 	padding:0;
